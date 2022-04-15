@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.card-movie{
+  transition:all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-movie:hover{
+  transform: scale(1,1.05);
+  box-shadow: 0 .20rem 1.75rem 0 rgba(58,59,69,.15)
 }
