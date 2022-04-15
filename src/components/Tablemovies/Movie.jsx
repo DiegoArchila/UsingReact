@@ -3,9 +3,9 @@ import "./Movie.css";
 
 function Movie(){
     return(
-        <div className="col card shadow m-0">
+        <div className="col card shadow mb-4">
 			{/*<!-- PRODUCTS LIST -->*/}
-			<h1 className="h3 mb-2 mt-2 text-gray-800 text-center">All the movies in the Database</h1>
+			<h1 className="h3 mb-2 my-2 text-gray-800 text-center">All the movies in the Database</h1>
 			
 			{/*<!-- DataTales Example -->*/}
 			<div className="mb-4 border-0 shadow p-0">
