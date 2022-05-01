@@ -61,13 +61,7 @@ function ContentRowTop(){
 						{/*<!-- End content row last movie in Data Base -->*/}
 
 						{/*<!-- Genres in DB -->*/}
-						<CardContainerGeneric title="Genres in Data Base">
-							<div className="row">
-								{genres.map( (genre, i) => {
-									return <GenresInDb  title={genre} key={genre+i} />
-								})}
-							</div>
-						</CardContainerGeneric>
+						<GenresInDb />
 						
 					</div>
 

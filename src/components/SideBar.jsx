@@ -6,7 +6,7 @@ function SideBar(){
     return(
         <React.Fragment>
             {/*<!-- Sidebar -->*/}
-            <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark collapse d-lg-block" id="accordionSidebar">
+            <ul className="navbar-nav bg-dark sidebar sidebar-dark collapse d-md-block shadow-lg" id="accordionSidebar">
 
                 {/*<!-- Sidebar - Brand -->*/}
                 <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">

@@ -7,10 +7,10 @@ function TopBar(){
     return(
         <React.Fragment>
 				{/*<!-- Topbar -->*/}
-				<nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 shadow">
+				<nav className="navbar navbar-expand navbar-light topbar mb-4 shadow" >
 
 					{/*<!-- Sidebar Toggle (Topbar) -->*/}
-					<button id="sidebarToggleTop" className="btn btn-link d-lg-none rounded mr-3" data-toggle="collapse" data-target="#accordionSidebar" aria-expanded="false" aria-controls="#accordionSidebar">
+					<button id="sidebarToggleTop" className="btn btn-link d-lg-none rounded mr-3" data-toggle="collapse" data-target="#accordionSidebar" aria-expanded="true" aria-controls="#accordionSidebar">
 						<i className="fa fa-bars"></i>
 					</button>
 
